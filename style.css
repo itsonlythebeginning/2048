@@ -1,0 +1,151 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/open-sans-v35-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/open-sans-v35-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/open-sans-v35-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("fonts/open-sans-v35-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.score__title {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.game {
+  border: 20px solid #bbada0;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 20px;
+  background: #bbada0;
+}
+.game__cell {
+  grid-column: span 1;
+  border: 1px solid #bbada0;
+  background: #cdc1b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 8px;
+}
+
+.x0 {
+  background: #d2c0b1;
+}
+
+.x2 {
+  background: #eee4da;
+  color: #766d64;
+}
+
+.x4 {
+  background: #ece0c8;
+  color: #776e67;
+}
+
+.x8 {
+  background: #f2b179;
+  color: #f7f6f2;
+}
+
+.x16 {
+  background: #f59563;
+  color: #f6f3ec;
+}
+
+.x32 {
+  background: #f57c5f;
+  color: #fffbfc;
+}
+
+.x64 {
+  background: #f65e3b;
+  color: #fffbfc;
+}
+
+.x128 {
+  background: #edcf72;
+  color: #fffbfc;
+}
+
+.x256 {
+  background: #edcc61;
+  color: #fffbfc;
+}
+
+.x512 {
+  background: #edc850;
+  color: #fffbfc;
+}
+
+.x1024 {
+  background: #edc53f;
+  color: #fffbfc;
+}
+
+.x2048 {
+  background: #ecc400;
+  color: #fffbfc;
+}
+
+.x4096 {
+  background: blueviolet;
+  color: #fffbfc;
+}
+
+/*# sourceMappingURL=style.css.map */
